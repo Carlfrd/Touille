@@ -301,5 +301,25 @@ footer img{
         grid-template-rows: 450px 80px 500px 450px 80px 650px;
      }
 
+    .presentacione{
+        display: flex;
+        flex-direction: column;
+        margin: 0.5cm 1cm 0.5cm 1.5cm;
+        align-items: center;
+    }
+
+
+
+    footer{
+        background-image: url(../medios/fondooscuro.jpg);
+        width: 100%;
+        height: 110px;
+        text-align: center;   
+        color: white;
+        text-shadow: -6px 0px 9px rgba(255,255,255,0.28);
+        text-transform: uppercase;
+        font-size: 0.9rem;
+    }
+
 
 }
