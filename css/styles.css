@@ -1,0 +1,273 @@
+/* paleta de colores
+#161A30 azul marino
+#61677A cemento
+#D8D9DA gris
+#FFF6E0 crema
+rgb(248, 246, 246/
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/*font-family: 'Libre Baskerville', serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    background-color:rgb(248, 246, 246)
+}
+
+/*Header*/
+header{
+    background-image: url(../medios/fondooscuro.jpg);
+    background-size: cover;
+    padding: 10px 0px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0%;
+
+}
+
+header img {
+    width: 90px;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    display: inline-block;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-left: 0.7cm;
+    margin-right: 0.5cm;
+    text-shadow: 4px -1px 3px rgba(255,255,255,0.72);
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color:#161A30;
+}
+
+/*Main de index*/
+/*banner*/
+
+.banner {
+    background-image: url(../medios/fondooscuro.jpg);
+    background-size:cover;
+    padding: 45px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    color: white;
+    text-shadow: -6px 0px 9px rgba(255,255,255,0.28);
+    text-transform: uppercase;
+    font-size: 1.9rem;
+}
+
+/*presentacion index*/
+.presentacionindex{
+    display: grid;
+    grid-template-areas: 
+    "img1     titulo1"
+    "img1     texto1"
+    "titulo2   img2"
+    "texto2    img2";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 400px 100px 400px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+.presentacionindex img {
+    width: 80%;
+    height: 100%;
+}
+.img-1{
+    grid-area: img1;
+}
+.titulo-presentacion1{
+    grid-area:titulo1;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem; 
+}
+.texto-imagen1{
+    grid-area:texto1;
+    text-align: center;
+    text-decoration:dashed;
+    font-size: 1.5rem;
+}
+.img-2{
+    grid-area: img2;
+}
+.titulo-presentacion2{
+    grid-area: titulo2;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.texto-imagen2{
+    grid-area: texto2;
+    text-align: center;
+    text-decoration:dashed;
+    font-size: 1.5rem;
+}
+
+/*presentacion nosotros*/
+.tituloh {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+}
+
+.presentacion-nosotros{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1cm 1cm 2cm 1cm;
+}
+.parrafoh {
+    margin-left: 1cm;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.carousek {
+    width: 800px;
+    margin: auto;
+    text-shadow: 2px -1px 4px rgba(0,0,0,1);
+    font-size: 1.5rem;
+}
+
+/*presentacion menu*/
+.presentacion-menu{
+    display: inline-block;
+}
+.texto-imagenm {
+    text-align: center;
+    margin: 1.5cm 1cm 2cm 1cm;
+    font-size: 1.6rem;
+}
+.imagenesm {
+    display: grid;
+    grid-template-areas: 
+    "img1 img1 img1 img1"
+    "img2 img2 img3 img3"
+    "img4 img5 img5 img6";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 400px 400px 400px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;   
+}
+
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+
+/*presentacion eventos*/
+.presentacione{
+    display: flex;
+    flex-direction: row;
+    margin: 1cm 1cm 1cm 3cm;
+    justify-content: center;
+}
+/*presentacion contacto*/
+.presentacionc{
+    display: grid;
+    grid-template-areas:
+    "texto texto"
+    "imgc formulario"
+    "mapa mapa";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 300px 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloc{
+    grid-area: texto;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    margin-top: 1cm;
+}
+.imgc{
+    grid-area: imgc;
+    width: 50%;
+    height: 75%;
+    margin-left: 2cm;
+
+}
+.formc{
+    grid-area: formulario;
+    align-items: center;
+    width: 65%;
+    height: 250px;
+    margin: auto;
+    margin-top: 1cm;
+    background-color:#c2c5cfc0;
+    text-align: center;
+}
+.formcc{
+    margin-top: 0.5cm;
+}
+.mapac{
+    grid-area: mapa;
+    height: 300px;
+    margin-top: 1cm;
+    margin-bottom: 0.5cm;
+}
+
+/*footer*/
+
+footer{
+    background-image: url(../medios/fondooscuro.jpg);
+    width: 100%;
+    height: 110px;
+    text-align: center;   
+    color: white;
+    text-shadow: -6px 0px 9px rgba(255,255,255,0.28);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+footer img{
+        width: 40px;
+        height: 50%;
+        margin-top: 0.3cm;
+        margin-left: 0.5cm;
+}
+
+/*media Q mobile*/
