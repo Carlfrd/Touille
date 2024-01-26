@@ -308,8 +308,6 @@ footer img{
         align-items: center;
     }
 
-
-
     footer{
         background-image: url(../medios/fondooscuro.jpg);
         width: 100%;
@@ -320,6 +318,4 @@ footer img{
         text-transform: uppercase;
         font-size: 0.9rem;
     }
-
-
 }
