@@ -301,11 +301,65 @@ footer img{
         grid-template-rows: 450px 80px 500px 450px 80px 650px;
      }
 
+     .imgn {
+        margin-left: 1.2cm
+     }
+     .presentacion-nosotros{
+        display: inline-block;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .parrafoh{
+        margin-top: 0.5cm;
+    }
+
+    .carousek{
+        width: auto;
+        margin-bottom: 0.5cm;
+    }
+
+    .presentacion-menu{
+        display: block;
+    }
+
+    .imagenesm{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.5cm;
+    }
+    .img1{
+        width: 100%;
+    }
+    .img2{
+        width: 100%;
+    }
+    .img3{
+        width: 100%;
+    }
+
     .presentacione{
         display: flex;
         flex-direction: column;
         margin: 0.5cm 1cm 0.5cm 1.5cm;
         align-items: center;
+    }
+
+    .presentacionc{
+        display: grid;
+        grid-template-areas:
+        "texto"
+        "imgc"
+        "formulario"
+        "mapa";
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 250px 300px 400px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .imgc{
+        margin-left: 2.5cm;
     }
 
     footer{
