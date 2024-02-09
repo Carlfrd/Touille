@@ -206,6 +206,7 @@ header{
     grid-template-rows: 100px 300px 400px;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to bottom, #f8f6f6, #eeecec, #e3e2e3, #d9d9d9, #cfcfcf, #bababa, #a6a6a6, #929292, #707070, #505050, #323232, #161616);
     .tituloc{
         grid-area: texto;
         text-align: center;
