@@ -3,7 +3,7 @@
 #61677A cemento
 #D8D9DA gris
 #FFF6E0 crema
-rgb(248, 246, 246*/
+rgb(248, 246, 246) */
 
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
@@ -324,7 +324,9 @@ footer{
     .img3{
         width: 100%;
     }
-
+    .img6 {
+        width: 100%;
+    }
     .presentacione{
         display: flex;
         flex-direction: column;
