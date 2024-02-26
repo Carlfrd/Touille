@@ -1,4 +1,4 @@
-@import "generales/gral.scss";
+@import "generales/_gral.scss";
 
 /*Estilos Generales*/
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
@@ -15,13 +15,13 @@ body{
     background-color: $rgb
 }
 
-@import "generales/headfoot.scss";
-@import "page/index.scss";
-@import "page/nosotros.scss";
-@import "page/menu.scss";
-@import "page/eventos.scss";
-@import "page/contacto.scss";
-@import "generales/mediaq.scss";
+@import "generales/_headfoot.scss";
+@import "page/_index.scss";
+@import "page/_nosotros.scss";
+@import "page/_menu.scss";
+@import "page/_eventos.scss";
+@import "page/_contacto.scss";
+@import "generales/_mediaq.scss";
 
 
 

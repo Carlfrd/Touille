@@ -9,9 +9,9 @@ $rgb:rgb(248, 246, 246);
 
 //mixin
 
-@mixin flex ($direccion, $justify, $align) {
+@mixin flex {
     display: flex;
-    flex-direction: $direccion;
-    justify-content: $justify;
-    align-items: $align;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }

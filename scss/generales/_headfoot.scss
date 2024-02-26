@@ -4,10 +4,7 @@ header{
     background-size: cover;
     padding: 10px 0px;
     font-size: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    @include flex;
     position: sticky;
     top: 0%;
     img {
