@@ -1,0 +1,17 @@
+$font:'Libre Baskerville', serif;
+
+$azul:#161A30;
+$cemento:#61677A;
+$gris:#D8D9DA;
+$crema:#FFF6E0;
+$blanco: #ffffff;
+$rgb:rgb(248, 246, 246);
+
+//mixin
+
+@mixin flex ($direccion, $justify, $align) {
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}

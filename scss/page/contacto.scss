@@ -1,0 +1,45 @@
+/*presentacion contacto*/
+.presentacionc{
+    display: grid;
+    grid-template-areas:
+    "texto texto"
+    "imgc formulario"
+    "mapa mapa";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 300px 400px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #f8f6f6, #eeecec, #e3e2e3, #d9d9d9, #cfcfcf, #bababa, #a6a6a6, #929292, #707070, #505050, #323232, #161616);
+    .tituloc{
+        grid-area: texto;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 2.5rem;
+        margin-top: 1cm;
+    }
+    .imgc{
+        grid-area: imgc;
+        width: 50%;
+        height: 75%;
+        margin-left: 2cm;
+    }
+    .formc{
+        grid-area: formulario;
+        align-items: center;
+        width: 65%;
+        height: 250px;
+        margin: auto;
+        margin-top: 1cm;
+        background-color:#c2c5cfc0;
+        text-align: center;
+    }
+    .formcc{
+        margin-top: 0.5cm;
+    }
+    .mapac{
+        grid-area: mapa;
+        height: 300px;
+        margin-top: 1cm;
+        margin-bottom: 0.5cm;
+    }
+}

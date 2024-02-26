@@ -1,0 +1,65 @@
+/*main*/
+/*banner*/
+.banner {
+    background-image: url(../medios/fondooscuro.jpg);
+    background-size:cover;
+    padding: 45px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    color: white;
+    text-shadow: -6px 0px 9px rgba(255,255,255,0.28);
+    text-transform: uppercase;
+    font-size: 1.9rem;
+}
+
+/*Main de index*/
+/*presentacion index*/
+.presentacionindex{
+    display: grid;
+    grid-template-areas: 
+    "img1     titulo1"
+    "img1     texto1"
+    "titulo2   img2"
+    "texto2    img2";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 400px 100px 400px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    img {
+        width: 80%;
+        height: 100%;
+    }
+    .img-1{
+        grid-area: img1;
+    }
+    .titulo-presentacion1{
+        grid-area:titulo1;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 2rem; 
+    }
+    .texto-imagen1{
+        grid-area:texto1;
+        text-align: center;
+        text-decoration:dashed;
+        font-size: 1.5rem;
+    }
+    .img-2{
+        grid-area: img2;
+    }
+    .titulo-presentacion2{
+        grid-area: titulo2;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 2rem;
+    }
+    .texto-imagen2{
+        grid-area: texto2;
+        text-align: center;
+        text-decoration:dashed;
+        font-size: 1.5rem;
+    }  
+}
